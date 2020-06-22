@@ -1,4 +1,6 @@
 	/*  Wizard */
+
+	var nowstatecomplete
 	jQuery(function ($) {
 		"use strict";
 		$('form#wrapped').attr('action', 'registration_send.php');
@@ -28,11 +30,12 @@
 		$("#wizard_container").wizard({
 			afterSelect: function (event, state) {
 				$("#progressbar").progressbar("value", state.percentComplete);
+				nowstatecomplete = state.percentComplete
 				$("#location").text("(" + state.stepsComplete + "/" + state.stepsPossible + ")");
 			}
 		});
 		/* Submit loader mask */
-		$('form').on('submit',function() {
+		$('form').on('submit', function () {
 			var form = $("form#wrapped");
 			form.validate();
 			if (form.valid()) {
