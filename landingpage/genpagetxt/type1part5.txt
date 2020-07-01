@@ -180,9 +180,8 @@
             function traceinput(x, y) {
                 var inputvalue = x.value
                 var inputname = y
-                fbq('track', 'PageAction', {
+                fbq('track', 'PageAction'+mypageid, {
                     type: "input change",
-                    pageid: mypageid,
                     name: inputname,
                     value: inputvalue
                 });
