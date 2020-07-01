@@ -285,12 +285,14 @@
 	<form hidden id="googleform"
 		action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfFB-8-6_iN_xcqN8mxBz2lZIRfpAozjShgpYVNtUgHyKALzg/formResponse"
 		method="POST" target="googleformiframe">
-		<input id="googleformpageidinput" name="entry.1554866495" value='testpage'>
+		<input id="googleformpageidinput" name="entry.1554866495">
 		<input id="googleformnameinput" name="entry.492191080">
 		<input id="googleformcontactinput" name="entry.1364016212">
 	</form>
 
 	<script>
+		document.getElementById('googleformpageidinput').value = mypageid
+
 		var googleformcheck =
 			window.setInterval(function () {
 				try {
