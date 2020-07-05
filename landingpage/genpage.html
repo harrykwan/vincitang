@@ -6,44 +6,18 @@
     <input placeholder="page title"><br>
     <input placeholder="page description"><br>
     <input placeholder="photo url"><br>
+    <input placeholder="page color code"><br>
     <button onclick="genpage()">Gen Page</button>
     <a id="downloadAnchorElem" hidden></a>
     <script>
-        var type1part1, type1part2, type1part3, type1part4, type1part5
+        var type1text = ''
         var client = new XMLHttpRequest();
-        client.open('GET', './genpagetxt/type1part1.txt');
+        client.open('GET', './genpagetxt/type1.txt');
         client.onreadystatechange = function () {
-            type1part1 = client.responseText;
+            type1text = client.responseText;
         }
         client.send();
 
-        var client2 = new XMLHttpRequest();
-        client2.open('GET', './genpagetxt/type1part2.txt');
-        client2.onreadystatechange = function () {
-            type1part2 = client2.responseText;
-        }
-        client2.send();
-
-        var client3 = new XMLHttpRequest();
-        client3.open('GET', './genpagetxt/type1part3.txt');
-        client3.onreadystatechange = function () {
-            type1part3 = client3.responseText;
-        }
-        client3.send();
-
-        var client4 = new XMLHttpRequest();
-        client4.open('GET', './genpagetxt/type1part4.txt');
-        client4.onreadystatechange = function () {
-            type1part4 = client4.responseText;
-        }
-        client4.send();
-
-        var client5 = new XMLHttpRequest();
-        client5.open('GET', './genpagetxt/type1part5.txt');
-        client5.onreadystatechange = function () {
-            type1part5 = client5.responseText;
-        }
-        client5.send();
 
         function downloadfile(x) {
             var dataStr = "data:text/html;charset=utf-8," + encodeURIComponent(x);
@@ -54,16 +28,21 @@
         }
 
         function genpage() {
+            type1text += ''
             var pageid = document.getElementsByTagName('input')[0].value
             var pagetitle = document.getElementsByTagName('input')[1].value
             var pagedescrip = document.getElementsByTagName('input')[2].value
             var photourl = document.getElementsByTagName('input')[3].value
+            var pagecolor = document.getElementsByTagName('input')[4].value
 
-            var temphtml = type1part1 + pageid + type1part2 + photourl + type1part3 + pagetitle + type1part4 +
-                pagedescrip + type1part5
+            type1text = type1text.split('{{pageid}}').join(pageid)
+            type1text = type1text.split("{{pagetitle}}").join(pagetitle)
+            type1text = type1text.split("{{pagedescrip}}").join(pagedescrip)
+            type1text = type1text.split("{{photourl}}").join(photourl)
+            type1text = type1text.split("{{pagecolor}}").join(pagecolor)
 
-            // console.log(temphtml)
-            downloadfile(temphtml)
+            // console.log(type1text)
+            downloadfile(type1text)
         }
     </script>
 </body>
