@@ -1,0 +1,50 @@
+<html>
+
+
+<body>
+    <input placeholder="pageid"><br>
+    <input placeholder="page title"><br>
+    <input placeholder="page description"><br>
+    <input placeholder="photo url"><br>
+    <input placeholder="page color code"><br>
+    <button onclick="genpage()">Gen Page</button>
+    <a id="downloadAnchorElem" hidden></a>
+    <script>
+        var type1text = ''
+        var client = new XMLHttpRequest();
+        client.open('GET', './genpagetxt/type2.txt');
+        client.onreadystatechange = function () {
+            type1text = client.responseText;
+        }
+        client.send();
+
+
+        function downloadfile(x) {
+            var dataStr = "data:text/html;charset=utf-8," + encodeURIComponent(x);
+            var dlAnchorElem = document.getElementById('downloadAnchorElem');
+            dlAnchorElem.setAttribute("href", dataStr);
+            dlAnchorElem.setAttribute("download", "page.html");
+            dlAnchorElem.click();
+        }
+
+        function genpage() {
+            type1text += ''
+            var pageid = document.getElementsByTagName('input')[0].value
+            var pagetitle = document.getElementsByTagName('input')[1].value
+            var pagedescrip = document.getElementsByTagName('input')[2].value
+            var photourl = document.getElementsByTagName('input')[3].value
+            var pagecolor = document.getElementsByTagName('input')[4].value
+
+            type1text = type1text.split('{{pageid}}').join(pageid)
+            type1text = type1text.split("{{pagetitle}}").join(pagetitle)
+            type1text = type1text.split("{{pagedescrip}}").join(pagedescrip)
+            type1text = type1text.split("{{photourl}}").join(photourl)
+            type1text = type1text.split("{{pagecolor}}").join(pagecolor)
+
+            // console.log(type1text)
+            downloadfile(type1text)
+        }
+    </script>
+</body>
+
+</html>

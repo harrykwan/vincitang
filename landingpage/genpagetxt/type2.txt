@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Vinci Tang">
+	<meta name="author" content="Harry Kwan">
+	<title>Vinci Tang</title>
+
+	<!-- Favicons-->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
+		href="img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
+		href="img/apple-touch-icon-144x144-precomposed.png">
+
+	<!-- GOOGLE WEB FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+	<!-- BASE CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
+	<link href="css/skins/square/grey.css" rel="stylesheet">
+
+	<!-- YOUR CUSTOM CSS -->
+
+	<style>
+		body {
+			/* font-family: 'Noto Sans HK', sans-serif; */
+		}
+	</style>
+	<link href="css/custom.css" rel="stylesheet">
+
+	<script src="js/modernizr.js"></script>
+	<!-- Modernizr -->
+	<!-- Facebook Pixel Code -->
+	<script>
+		const mypageid = "CarParkRental"
+
+			! function (f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function () {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '316500179745290');
+		fbq('track', 'PageView' + mypageid);
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=316500179745290&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div><!-- /Preload -->
+
+	<div id="loader_form">
+		<div data-loader="circle-side-2"></div>
+	</div><!-- /loader_form -->
+
+	<header hidden>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3">
+
+					<div style="transform: scale(0.8);"><svg viewBox="0 0 278.5152849614643 80"
+							preserveAspectRatio="xMidYMid meet" class="css-1y5supu" id="dcdbheae">
+							<defs id="SvgjsDefs1094"></defs>
+							<g id="SvgjsG1095" featurekey="nRdZyp-0"
+								transform="matrix(0.8061590546857588,0,0,0.8061590546857588,-4.562054025886401,-0.28215571238575726)"
+								fill="#d3d6db">
+								<g xmlns="http://www.w3.org/2000/svg">
+									<path fill="rgb(35, 59, 110)"
+										d="M93.786,22.714c-0.003-0.025-0.008-0.05-0.012-0.076c-0.018-0.113-0.042-0.225-0.073-0.336   c-0.005-0.02-0.009-0.04-0.015-0.06c-0.037-0.123-0.082-0.245-0.136-0.365c-0.011-0.025-0.022-0.049-0.035-0.073   c-0.027-0.06-0.055-0.119-0.086-0.178c-0.019-0.032-0.041-0.062-0.06-0.094c-0.02-0.032-0.038-0.062-0.058-0.093   c-0.064-0.1-0.135-0.195-0.209-0.285c-0.006-0.008-0.011-0.016-0.018-0.022c-0.086-0.102-0.179-0.196-0.274-0.285   c-0.019-0.016-0.037-0.032-0.056-0.048c-0.088-0.075-0.178-0.146-0.271-0.21c-0.019-0.012-0.035-0.025-0.053-0.037   c-0.109-0.073-0.224-0.138-0.343-0.196c-0.007-0.004-0.014-0.008-0.021-0.012L51.07,0.653c-0.842-0.404-1.824-0.404-2.667,0   L7.406,20.343c-0.008,0.004-0.015,0.009-0.023,0.013c-0.116,0.058-0.229,0.122-0.338,0.193c-0.021,0.013-0.041,0.028-0.061,0.042   c-0.09,0.062-0.177,0.13-0.261,0.203c-0.021,0.018-0.042,0.036-0.063,0.055c-0.095,0.087-0.186,0.179-0.271,0.279   c-0.01,0.011-0.018,0.024-0.027,0.036c-0.07,0.085-0.136,0.176-0.197,0.27c-0.022,0.034-0.043,0.068-0.064,0.104   c-0.018,0.03-0.039,0.058-0.056,0.088c-0.031,0.055-0.056,0.112-0.083,0.168c-0.014,0.029-0.029,0.057-0.042,0.085   c-0.052,0.119-0.096,0.238-0.132,0.359c-0.006,0.023-0.012,0.047-0.018,0.07c-0.03,0.108-0.053,0.216-0.07,0.325   c-0.005,0.028-0.01,0.055-0.013,0.083c-0.018,0.132-0.028,0.265-0.028,0.397c0,0.002,0,0.005,0,0.007v50.65   c0,1.119,0.607,2.15,1.587,2.694L48.242,99.2c0.465,0.257,0.98,0.386,1.495,0.386c0.514,0,1.029-0.129,1.494-0.386l40.997-22.734   c0.979-0.544,1.587-1.575,1.587-2.694v-50.65c0-0.001,0-0.003,0-0.005C93.815,22.982,93.805,22.848,93.786,22.714z M49.737,92.981   L11.821,71.956V28.354l20.112,11.153c0.474,0.262,0.986,0.387,1.492,0.387c1.084,0,2.135-0.573,2.698-1.588   c0.825-1.488,0.288-3.364-1.2-4.189L15.449,23.317L49.737,6.85l34.289,16.468L64.553,34.116c-1.489,0.825-2.028,2.701-1.201,4.189   c0.562,1.016,1.613,1.588,2.697,1.588c0.506,0,1.019-0.125,1.491-0.387l20.112-11.152v43.602L49.737,92.981z">
+									</path>
+									<path fill="rgb(35, 59, 110)"
+										d="M52.84,50.581c-0.1-0.314-0.425-0.496-0.744-0.413c-1.544,0.402-3.201,0.4-4.751-0.009   c-0.318-0.084-0.647,0.098-0.746,0.412L37.947,78.23c-0.072,0.23-0.002,0.482,0.179,0.643l11.184,9.935   c0.117,0.104,0.263,0.155,0.41,0.155c0.146,0,0.291-0.052,0.408-0.154l11.222-9.935c0.181-0.159,0.251-0.413,0.178-0.645   L52.84,50.581z">
+									</path>
+									<path fill="rgb(35, 59, 110)"
+										d="M41.634,38.822l5.072,8.696c0.083,0.141,0.217,0.244,0.375,0.286c0.17,0.044,0.34,0.094,0.511,0.142   c0.671,0.193,1.366,0.392,2.145,0.392c0.751,0,1.419-0.193,2.065-0.38c0.183-0.052,0.366-0.106,0.55-0.153   c0.165-0.043,0.303-0.152,0.385-0.301l4.771-8.727c0.165-0.348,0.315-1.145-0.176-1.924c-0.892-1.412-3.446-2.128-7.595-2.128   c-4.19,0-6.82,0.724-7.82,2.15c-0.641,0.917-0.363,1.755-0.33,1.849C41.601,38.757,41.616,38.79,41.634,38.822z">
+									</path>
+								</g>
+							</g>
+							<g id="SvgjsG1096" featurekey="Q4qmbg-0"
+								transform="matrix(4.602511329539961,0,0,4.602511329539961,96.82845124924376,-19.78661892264443)"
+								fill="rgb(35, 59, 110)">
+								<path
+									d="M5.94 20 l-1.94 0 l-4.18 -9.88 l3.06 0 l2.08 5.64 c0.68 -1.72 1.44 -3.98 2.08 -5.64 l3.04 0 z M13.683895833333333 10.12 l0 9.88 l-2.96 0 l0 -9.88 l2.96 0 z M13.763895833333333 7.279999999999999 c0 0.84 -0.68 1.5 -1.58 1.5 c-0.86 0 -1.56 -0.66 -1.56 -1.5 c0 -0.82 0.7 -1.46 1.56 -1.46 c0.9 0 1.58 0.64 1.58 1.46 z M24.587791666666664 14.36 l0 5.64 l-2.96 0 l0 -5.64 c0 -1.5 -0.4 -2.16 -1.56 -2.16 c-1.2 0 -1.9 0.66 -1.9 2.16 l0 5.64 l-2.96 0 l0 -9.88 l2.96 0 l0 0.94 c0.76 -0.74 1.8 -1.08 2.66 -1.08 c2.78 0 3.76 1.34 3.76 4.38 z M33.0916875 16.46 l2.08 1.88 c-1.12 1.24 -2.58 1.82 -4.14 1.82 c-2.88 0 -5.2 -2.16 -5.2 -5.08 s2.32 -5.1 5.2 -5.1 c1.56 0 3.02 0.58 4.14 1.82 l-2.08 1.88 c-0.44 -1.02 -1.4 -1.26 -2.06 -1.26 c-1.22 0 -2.24 1.08 -2.24 2.66 c0 1.56 1.02 2.64 2.24 2.64 c0.66 0 1.64 -0.18 2.06 -1.26 z M39.39558333333333 10.12 l0 9.88 l-2.96 0 l0 -9.88 l2.96 0 z M39.475583333333326 7.279999999999999 c0 0.84 -0.68 1.5 -1.58 1.5 c-0.86 0 -1.56 -0.66 -1.56 -1.5 c0 -0.82 0.7 -1.46 1.56 -1.46 c0.9 0 1.58 0.64 1.58 1.46 z">
+								</path>
+							</g>
+						</svg></div>
+
+				</div>
+
+			</div>
+		</div>
+		<!-- container -->
+	</header>
+	<!-- End Header -->
+
+	<main>
+		<div id="form_container">
+			<div class="row">
+				<div class="col-lg-5">
+					<video muted autoplay width="100%" src="sample.mp4" id="myvideo" controls>
+						<source src="{{videourl}}" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div id="left_form" style="background: #{{pagecolor}};">
+						<figure></figure>
+						<h2>{{pagetitle}}</h2>
+						<p>
+							{{pagedescrip}}</p>
+						<a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i
+								class="pe-7s-info"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-7">
+
+					<div id="wizard_container">
+						<div id="top-wizard">
+							<div id="progressbar"></div>
+						</div>
+						<!-- /top-wizard -->
+						<form name="example-1" id="wrapped" method="POST">
+							<input id="website" name="website" type="text" value="">
+							<!-- Leave for security protection, read docs for details -->
+							<div id="middle-wizard">
+
+								<div class="step">
+									<!-- <h3 class="main_question"><strong>1/3</strong>Please fill with your details</h3> -->
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group">
+												<input onchange="traceinput(this,'name')" type="text" name=""
+													class="form-control required" placeholder="Your Name">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group">
+												<input onchange="traceinput(this,'contact')" type="text" name=""
+													class="form-control required" placeholder="Your Contact">
+											</div>
+										</div>
+									</div>
+
+
+								</div>
+								<!-- /step-->
+
+								<!-- /step-->
+
+								<div class="step">
+									<div class="form-group">
+										<h1 id="thankyouword"></h1>
+									</div>
+
+								</div>
+								<!-- /step-->
+							</div>
+							<!-- /middle-wizard -->
+							<div id="bottom-wizard">
+								<button onclick="trackbuttonclick(this)" type="button" name="backward"
+									class="backward">Close</button>
+								<button onclick="trackbuttonclick(this)" type="button" name="forward"
+									class="forward">Submit</button>
+								<!-- <button type="submit" name="process" class="submit">Submit</button> -->
+							</div>
+							<!-- /bottom-wizard -->
+						</form>
+					</div>
+					<!-- /Wizard container -->
+				</div>
+			</div><!-- /Row -->
+		</div><!-- /Form_container -->
+	</main>
+
+	<footer id="home" class="clearfix">
+		<p>© 2020 Vinci Tang</p>
+		<!-- <ul>
+			<li><a href="#0" class="animated_link">Purchase this template</a></li>
+			<li><a href="#0" class="animated_link">Terms and conditions</a></li>
+			<li><a href="#0" class="animated_link">Contacts</a></li>
+		</ul> -->
+	</footer>
+	<!-- end footer-->
+
+	<div class="cd-overlay-nav">
+		<span></span>
+	</div>
+	<!-- cd-overlay-nav -->
+
+	<div class="cd-overlay-content">
+		<span></span>
+	</div>
+	<!-- cd-overlay-content -->
+
+	<!-- <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a> -->
+
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<a href="https://help.instagram.com/519522125107875">Terms</a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- Modal info -->
+	<div class="modal fade" id="more-info" tabindex="-1" role="dialog" aria-labelledby="more-infoLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="more-infoLabel">Terms and Conditions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<a href="https://help.instagram.com/519522125107875" target="_blank">Instagram 數據使用政策</a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- SCRIPTS -->
+	<!-- Jquery-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- Common script -->
+	<script src="js/common_scripts_min.js"></script>
+	<!-- Wizard script -->
+	<script src="js/registration_wizard_func.js"></script>
+	<!-- Menu script -->
+	<script src="js/velocity.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Theme script -->
+	<script src="js/functions.js"></script>
+
+
+	<iframe hidden id="googleformiframe" name="googleformiframe">
+
+	</iframe>
+
+	<form hidden id="googleform"
+		action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfFB-8-6_iN_xcqN8mxBz2lZIRfpAozjShgpYVNtUgHyKALzg/formResponse"
+		method="POST" target="googleformiframe">
+		<input id="googleformpageidinput" name="entry.1554866495">
+		<input id="googleformnameinput" name="entry.492191080">
+		<input id="googleformcontactinput" name="entry.1364016212">
+	</form>
+
+	<script>
+		document.getElementById('googleformpageidinput').value = mypageid
+
+		var googleformcheck =
+			window.setInterval(function () {
+				try {
+					// console.log(document.getElementById('googleformiframe').contentWindow.document)
+					if (document.getElementById('googleformiframe').contentWindow.document) {
+						// console.log('start')
+					}
+				} catch {
+					console.log('end')
+					clearInterval(googleformcheck)
+					$("#loader_form").fadeOut();
+					document.getElementById("thankyouword").innerHTML =
+						'Thank you for signing up. We will contact you soon.'
+					setTimeout(function () {
+						closebrowser()
+					}, 5000)
+
+				}
+
+			}, 500)
+
+		function traceinput(x, y) {
+			var inputvalue = x.value
+			var inputname = y
+			fbq('track', 'PageAction' + mypageid, {
+				type: "input change",
+				name: inputname,
+				value: inputvalue
+			});
+			document.getElementById('googleform' + y + 'input').value = inputvalue
+		}
+
+		function trackbuttonclick(x) {
+			var buttonname = x.innerText
+			fbq('track', 'PageAction', {
+				type: "button click",
+				pageid: mypageid,
+				name: buttonname
+			});
+			// console.log(buttonname)
+			if (buttonname == 'Close') {
+				closebrowser()
+			} else if (buttonname == 'Submit') {
+				window.setTimeout(function () {
+					if (nowstatecomplete) {
+						$("#loader_form").fadeIn();
+						document.getElementById("googleform").submit()
+					}
+				}, 500)
+
+
+			}
+
+		}
+
+		function closebrowser() {
+			$("#loader_form").fadeIn();
+			console.log('close')
+			window.close()
+			window.location.href = "https://www.instagram.com/"
+		}
+	</script>
+	<script>
+		var elem = document.getElementById("myvideo");
+
+		function openFullscreen() {
+			if (elem.requestFullscreen) {
+				elem.requestFullscreen();
+			} else if (elem.mozRequestFullScreen) {
+				/* Firefox */
+				elem.mozRequestFullScreen();
+			} else if (elem.webkitRequestFullscreen) {
+				/* Chrome, Safari & Opera */
+				elem.webkitRequestFullscreen();
+			} else if (elem.msRequestFullscreen) {
+				/* IE/Edge */
+				elem.msRequestFullscreen();
+			}
+			elem.play()
+		}
+
+		// var checkvideoload = setInterval(() => {
+		// 	try {
+		// 		openFullscreen()
+		// 	} catch (e) {
+		// 		console.log(e)
+		// 	} finally {
+		// 		clearInterval(checkvideoload)
+		// 	}
+		// }, 400);
+
+		setTimeout(() => {
+			openFullscreen()
+		}, 1000);
+	</script>
+</body>
+
+</html>
