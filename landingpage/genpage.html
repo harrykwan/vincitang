@@ -7,6 +7,7 @@
     <input placeholder="page description"><br>
     <input placeholder="photo url"><br>
     <input placeholder="page color code"><br>
+    <input placeholder="word color code"><br>
     <button onclick="genpage()">Gen Page</button>
     <a id="downloadAnchorElem" hidden></a>
     <script>
@@ -40,6 +41,7 @@
             type1text = type1text.split("{{pagedescrip}}").join(pagedescrip)
             type1text = type1text.split("{{photourl}}").join(photourl)
             type1text = type1text.split("{{pagecolor}}").join(pagecolor)
+            type1text = type1text.split("{{wordcolor}}").join(wordcolor)
 
             // console.log(type1text)
             downloadfile(type1text)
