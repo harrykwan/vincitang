@@ -11,11 +11,11 @@
     <button onclick="genpage()">Gen Page</button>
     <a id="downloadAnchorElem" hidden></a>
     <script>
-        var type1text = ''
+        var tempdata = ''
         var client = new XMLHttpRequest();
         client.open('GET', './genpagetxt/type1.txt');
         client.onreadystatechange = function () {
-            type1text = client.responseText;
+            tempdata = client.responseText;
         }
         client.send();
 
@@ -29,12 +29,13 @@
         }
 
         function genpage() {
-            type1text += ''
+            var type1text = tempdata + ''
             var pageid = document.getElementsByTagName('input')[0].value
             var pagetitle = document.getElementsByTagName('input')[1].value
             var pagedescrip = document.getElementsByTagName('input')[2].value
             var photourl = document.getElementsByTagName('input')[3].value
             var pagecolor = document.getElementsByTagName('input')[4].value
+            var wordcolor = document.getElementsByTagName('input')[5].value
 
             type1text = type1text.split('{{pageid}}').join(pageid)
             type1text = type1text.split("{{pagetitle}}").join(pagetitle)
