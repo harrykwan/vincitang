@@ -126,11 +126,11 @@
 		<div id="form_container">
 			<div class="row">
 				<div class="col-lg-5">
-					<video muted autoplay width="100%" src="sample.mp4" id="myvideo" controls>
+					<video onclick="openFullscreen()" autoplay width="100%" src="{{videourl}}" id="myvideo" controls>
 						<source src="{{videourl}}" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
-					<div id="left_form" style="background: #{{pagecolor}};">
+					<div id="left_form" style="background: #{{pagecolor}}; color:#{{wordcolor}}">
 						<figure></figure>
 						<h2>{{pagetitle}}</h2>
 						<p>
