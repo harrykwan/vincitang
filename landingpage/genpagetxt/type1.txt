@@ -82,6 +82,20 @@
 		<div data-loader="circle-side-2"></div>
 	</div><!-- /loader_form -->
 
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3">
+
+
+					<img src="logo.png" height="50px">
+				</div>
+
+			</div>
+		</div>
+		<!-- container -->
+	</header>
+	
 	<main>
 		<div id="form_container">
 			<div class="row">
