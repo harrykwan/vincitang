@@ -104,7 +104,7 @@
 
                     <div id="left_form"  style="background: #{{pagecolor}}; color:#{{wordcolor}}">
 
-                        <iframe src="https://player.vimeo.com/video/{{videourl}}" frameborder="0"
+                        <iframe src="https://player.vimeo.com/video/{{videourl}}" width="100%" frameborder="0"
                             allow="autoplay; fullscreen" allowfullscreen></iframe>
 
                         <h2>{{pagetitle}}</h2>
