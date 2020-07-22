@@ -38,6 +38,16 @@
           display: none !important;
         }
       }
+      @media (max-width: 600px) {
+        .hide-small {
+          display: none !important;
+        }
+      }
+      @media (max-width: 992px) and (min-width: 601px) {
+        .hide-small {
+          display: none !important;
+        }
+      }
     </style>
   </head>
 
@@ -63,6 +73,7 @@
               background-size: cover;
               background-position: center;
               background-repeat: no-repeat;
+              height: 100%;
             "
           >
             <!--Cloud-->
@@ -161,7 +172,10 @@
           <!--/Left Content Intro-->
 
           <!--Right Content Intro-->
-          <div class="side side-right text-center bg-pattern">
+          <div
+            class="side side-right text-center bg-pattern hide-small"
+            id="downloadarea"
+          >
             <!--Right Nav-->
 
             <!--/Right Nav-->
@@ -396,6 +410,10 @@
 
     <script>
       $("#startbutton").click(function () {
+        document
+          .getElementsByClassName("hide-small")[0]
+          .classList.remove("hide-small");
+        scrolltobottom();
         let isMobile = window.matchMedia("only screen and (max-width: 760px)")
           .matches;
 
