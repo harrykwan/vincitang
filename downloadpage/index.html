@@ -33,6 +33,11 @@
       html {
         scroll-behavior: smooth;
       }
+      @media (min-width: 993px) {
+        .hide-large {
+          display: none !important;
+        }
+      }
     </style>
   </head>
 
@@ -111,7 +116,7 @@
                     onclick="scrolltobottom()"
                   >
                     <h1
-                      class="animated"
+                      class="animated hide-large"
                       style="cursor: pointer; margin-bottom: 30px;"
                     >
                       <span id="typed"></span>
