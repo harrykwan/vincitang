@@ -29,6 +29,30 @@
 
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCHRUrh6mCJIQebs4o5xov4zu9T9VoztDo",
+        authDomain: "vincidownl.firebaseapp.com",
+        databaseURL: "https://vincidownl.firebaseio.com",
+        projectId: "vincidownl",
+        storageBucket: "vincidownl.appspot.com",
+        messagingSenderId: "321170546279",
+        appId: "1:321170546279:web:65b49cc28fa976fce83ec2",
+        measurementId: "G-TM4DSQ4XTW",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+      var storage = firebase.storage();
+    </script>
     <style>
       html {
         scroll-behavior: smooth;
@@ -231,7 +255,10 @@
                             Thank You
                           </h4>
 
-                          <button class="btn btn-default progress-button">
+                          <button
+                            class="btn btn-default progress-button"
+                            onclick="window.open('dummy.pdf', '_blank', 'fullscreen=yes'); finishdownload();"
+                          >
                             <span class="mask"></span>
                             <span class="btn-label">Download</span>
                           </button>
@@ -247,7 +274,7 @@
                             transform: scale(1.5);
                           "
                         >
-                          <div>
+                          <div onclick="quitpage()">
                             <span class="goto-next">
                               <i
                                 class="fa fa-arrow-left"
@@ -419,6 +446,16 @@
           //   $("#startsection").fadeOut();
         }
       });
+
+      function finishdownload() {
+        setTimeout(() => {
+          quitpage();
+        }, 5000);
+      }
+
+      function quitpage() {
+        window.location.href = "https://www.instagram.com/vinci.tang/";
+      }
     </script>
   </body>
 </html>
