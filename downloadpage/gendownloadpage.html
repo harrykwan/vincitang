@@ -1,0 +1,50 @@
+<html>
+
+
+<body>
+    <input placeholder="first page word"><br>
+    <input placeholder="first page question"><br>
+    <input placeholder="photo url"><br>
+    <input placeholder="second page word"><br>
+    <input placeholder="file name"><br>
+    <button onclick="genpage()">Gen Page</button>
+    <a id="downloadAnchorElem" hidden></a>
+    <script>
+        var tempdata = ''
+        var client = new XMLHttpRequest();
+        client.open('GET', './genpagetxt/downloadpage.txt');
+        client.onreadystatechange = function () {
+            tempdata = client.responseText;
+        }
+        client.send();
+
+
+        function downloadfile(x) {
+            var dataStr = "data:text/html;charset=utf-8," + encodeURIComponent(x);
+            var dlAnchorElem = document.getElementById('downloadAnchorElem');
+            dlAnchorElem.setAttribute("href", dataStr);
+            dlAnchorElem.setAttribute("download", "page.html");
+            dlAnchorElem.click();
+        }
+
+        function genpage() {
+            var type1text = tempdata + ''
+            var firstpageword = document.getElementsByTagName('input')[0].value
+            var firstpagequestion = document.getElementsByTagName('input')[1].value
+            var photourl = document.getElementsByTagName('input')[2].value
+            var secondpageword = document.getElementsByTagName('input')[3].value
+            var filename = document.getElementsByTagName('input')[4].value
+
+            type1text = type1text.split('{{firstpageword}}').join(firstpageword)
+            type1text = type1text.split("{{firstpagequestion}}").join(firstpagequestion)
+            type1text = type1text.split("{{photourl}}").join(photourl)
+            type1text = type1text.split("{{secondpageword}}").join(secondpageword)
+            type1text = type1text.split("{{filename}}").join(filename)
+
+            // console.log(type1text)
+            downloadfile(type1text)
+        }
+    </script>
+</body>
+
+</html>
