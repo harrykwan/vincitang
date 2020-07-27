@@ -369,7 +369,7 @@
                         </h4>
 
                         <button class="btn btn-default progress-button"
-                          onclick="window.open('{{filename}}', '_blank', 'fullscreen=yes'); finishdownload();">
+                          onclick="window.open('`+fileurl+`', '_blank', 'fullscreen=yes'); finishdownload();">
                           <span class="mask"></span>
                           <span class="btn-label">Download</span>
                         </button>
@@ -389,6 +389,12 @@
                         </div>
                       </div>`
     }
+
+    var myurl = '{{filename}}'
+     const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const fileurl = urlParams.get('fileurl')
+    console.log(fileurl);
   </script>
 </body>
 
