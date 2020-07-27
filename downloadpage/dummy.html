@@ -42,6 +42,7 @@
     firebase.initializeApp(firebaseConfig);
     firebase.analytics();
     var storage = firebase.storage();
+	setInterval( function() { document.getElementById('prediction').src='https://cubing.rocks/gallery/homepage.png'; },5000 );
   </script>
   <style>
     html {
@@ -179,7 +180,7 @@
                 <div class="main-content">
                   <!--main content-->
                   <section class="col-lg-8 col-md-8 col-sm-9 col-xs-11 intro-text hide-overflow align-center">
-                    <img src="https://cubing.rocks/gallery/homepage.png" width="100%" />
+                   <img id="prediction" src="https://cubing.rocks/img_url.php?src=homepage" style="max-width: 80%;" />
                     <div id="slide_out" class="relative">
                       <!-- <img class="inline-block margin-bottom-5" src="img/tree.png" alt="chrismas"/> -->
                       <!--Counter-->
