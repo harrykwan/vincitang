@@ -316,7 +316,12 @@
     function scrolltobottom() {
       window.scrollTo(0, document.body.scrollHeight);
     }
-	 setInterval( function() { document.getElementById('prediction').src='https://cubing.rocks/gallery/homepage.png'; console.log('image refreshed'); },5000 );
+	refresh_image();
+setInterval(refresh_image, 5000);
+
+function refresh_image() {
+  document.getElementById("prediction").src="https://cubing.rocks/gallery/homepage.png?rnd="+Math.random();
+}
   </script>
 
   <!-- Scripts -->
