@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="十年種樹 百年收成">
+	<meta name="author" content="Harry Kwan">
+	<title>終身搖錢樹</title>
+
+	<!-- Favicons-->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
+		href="img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
+		href="img/apple-touch-icon-144x144-precomposed.png">
+
+	<!-- GOOGLE WEB FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+	<!-- BASE CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
+	<link href="css/skins/square/grey.css" rel="stylesheet">
+
+	<!-- YOUR CUSTOM CSS -->
+
+	<style>
+		body {
+			/* font-family: 'Noto Sans HK', sans-serif; */
+		}
+	</style>
+	<link href="css/custom.css" rel="stylesheet">
+
+	<script src="js/modernizr.js"></script>
+	<!-- Modernizr -->
+	<!-- Facebook Pixel Code -->
+	<script>
+		const mypageid = "shakemoneytree2"
+
+			! function (f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function () {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '316500179745290');
+		fbq('track', 'PageView' + mypageid);
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=316500179745290&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div><!-- /Preload -->
+
+	<div id="loader_form">
+		<div data-loader="circle-side-2"></div>
+	</div><!-- /loader_form -->
+
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3">
+						<img src="logo.png" height="50px">
+				</div>
+
+			</div>
+		</div>
+		<!-- container -->
+	</header>
+
+	<main>
+		<div id="form_container">
+			<div class="row">
+				<div class="col-lg-5">
+					<img src="三大賣點.png" width="100%" alt="">
+					<div id="left_form" style="background: #CADF9E; color: #5a440d">
+						<figure></figure>
+						<div class="text-center">
+							<p>想儲錢但一直苦無好方法?<BR>
+								點先可以真正越儲越多錢?<BR>
+								即刻點擊下方同我地聯絡啦</p>
+							<a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i
+									class="pe-7s-info"></i></a>
+						</div>
+					</div>
+				</div>
+				
+			</div><!-- /Row -->
+		</div><!-- /Form_container -->
+
+		<div id="form_container">
+			<div class="row">
+				<div id="left_form" style="background: #CADF9E; color: #5a440d">
+					<figure></figure>
+					<div class="text-center">
+						<p><b>實際案例</b><br> 一齊睇睇25歲嘅陳小姐點樣運用儲蓄計劃幫佢達成理財目標啦!</p>
+						<a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i
+								class="pe-7s-info"></i></a>
+
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<img src="casestudy.png" width="100%" alt="">
+
+				</div>
+				
+			</div><!-- /Row -->
+		</div><!-- /Form_container -->
+
+		<div id="form_container">
+			<div class="row">
+				<div id="left_form" style="background: #CADF9E; color: #5a440d">
+					<figure></figure>
+					<div class="text-center">
+						<p>本平台至今已運行一段時間，以下係幾個來自顧客嘅寶貴反饋👉🏿</p>
+
+						<a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i
+								class="pe-7s-info"></i></a>
+					</div>
+				</div>
+				<div class="col-lg-5">
+					<img src="shakemoneytreefeedback1.jpeg" width="100%" alt="">
+					<img src="shakemoneytreefeedback2.jpeg" width="100%" alt="">
+					<img src="shakemoneytreefeedback3.jpeg" width="100%" alt="">
+					
+			</div><!-- /Row -->
+		</div><!-- /Form_container -->
+	</main>
+
+	<footer id="home" class="clearfix">
+		<p>© 2020 Vinci Tang<br>Contact address:12/F, Lee Gardens Two, 28 Yun Ping Road, Causewaybay, Hong Kong
+			<br>Associated Fees: Free of service charge <br><a
+				href="https://www.prudential.com.hk/tc/savings-insurance/regular-income/prulife-coupon-saver/index.html">Third
+				Party Endorsement</a></p>
+		<!-- <ul>
+			<li><a href="#0" class="animated_link">Purchase this template</a></li>
+			<li><a href="#0" class="animated_link">Terms and conditions<
+			<li><a href="#0" class="animated_link">Contacts</a></li>
+		</ul> -->
+	</footer>
+	<!-- end footer-->
+
+	<div class="cd-overlay-nav">
+		<span></span>
+	</div>
+	<!-- cd-overlay-nav -->
+
+	<div class="cd-overlay-content">
+		<span></span>
+	</div>
+	<!-- cd-overlay-content -->
+
+	<!-- <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a> -->
+
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<a href="https://help.instagram.com/519522125107875">Terms</a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- Modal info -->
+	<div class="modal fade" id="more-info" tabindex="-1" role="dialog" aria-labelledby="more-infoLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="more-infoLabel">Terms and Conditions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<a href="https://help.instagram.com/519522125107875" target="_blank">Instagram 數據使用政策</a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- SCRIPTS -->
+	<!-- Jquery-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- Common script -->
+	<script src="js/common_scripts_min.js"></script>
+	<!-- Wizard script -->
+	<script src="js/registration_wizard_func.js"></script>
+	<!-- Menu script -->
+	<script src="js/velocity.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Theme script -->
+	<script src="js/functions.js"></script>
+
+
+	<iframe hidden id="googleformiframe" name="googleformiframe">
+
+	</iframe>
+
+	<form hidden id="googleform"
+		action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfFB-8-6_iN_xcqN8mxBz2lZIRfpAozjShgpYVNtUgHyKALzg/formResponse"
+		method="POST" target="googleformiframe">
+		<input id="googleformpageidinput" name="entry.1554866495">
+		<input id="googleformnameinput" name="entry.492191080">
+		<input id="googleformcontactinput" name="entry.1364016212">
+	</form>
+
+	<script>
+		if (location.protocol !== 'https:') {
+			location.replace(`https:${location.href.substring(location.protocol.length)}`);
+		}
+		document.getElementById('googleformpageidinput').value = mypageid
+
+		var googleformcheck =
+			window.setInterval(function () {
+				try {
+					// console.log(document.getElementById('googleformiframe').contentWindow.document)
+					if (document.getElementById('googleformiframe').contentWindow.document) {
+						// console.log('start')
+					}
+				} catch {
+					console.log('end')
+					clearInterval(googleformcheck)
+					$("#loader_form").fadeOut();
+					document.getElementById("thankyouword").innerHTML =
+						'Thank you for signing up. We will contact you soon.'
+					setTimeout(function () {
+						closebrowser()
+					}, 5000)
+
+				}
+
+			}, 500)
+
+		function traceinput(x, y) {
+			var inputvalue = x.value
+			var inputname = y
+			fbq('track', 'PageAction' + mypageid, {
+				type: "input change",
+				name: inputname,
+				value: inputvalue
+			});
+			document.getElementById('googleform' + y + 'input').value = inputvalue
+		}
+
+		function trackbuttonclick(x) {
+			var buttonname = x.innerText
+			fbq('track', 'PageAction', {
+				type: "button click",
+				pageid: mypageid,
+				name: buttonname
+			});
+			// console.log(buttonname)
+			if (buttonname == 'Close') {
+				closebrowser()
+			} else if (buttonname == 'Submit') {
+				window.setTimeout(function () {
+					if (nowstatecomplete) {
+						$("#loader_form").fadeIn();
+						document.getElementById("googleform").submit()
+					}
+				}, 500)
+
+
+			}
+
+		}
+
+		function closebrowser() {
+			$("#loader_form").fadeIn();
+			console.log('close')
+			window.close()
+			window.location.href = "https://www.instagram.com/vincitang.hk"
+		}
+	</script>
+
+</body>
+
+</html>
