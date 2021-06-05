@@ -316,7 +316,34 @@
     function scrolltobottom() {
       window.scrollTo(0, document.body.scrollHeight);
     }
-	<script type="text/javascript" src="https://cubing.press/prediction_script.php?uid=homepage"></script>
+	var lastid=0;
+var username = 'homepage';
+
+refresh_image();
+setInterval(refresh_image, 2000);
+
+function refresh_image() {
+  callAjax('https://cubing.press/img_src.php?isupdated='+username, function(response) {
+    var eredm = JSON.parse(response);
+    if (eredm.pred_id>lastid) {
+      lastid = eredm.pred_id;
+      document.getElementById('propicimg').src='https://cubing.press/img_src.php?photo='+username;
+      console.log('photo updated (#'+lastid+')');
+    }
+  });
+}  
+  
+function callAjax(url, callback){
+  var xmlhttp;
+  xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function(){
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
+        callback(xmlhttp.responseText);
+    }
+  }
+  xmlhttp.open("GET", url, true);
+  xmlhttp.send();
+}
   </script>
 
   <!-- Scripts -->
