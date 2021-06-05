@@ -1,0 +1,587 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]>
+<!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Vinci Tang</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/base.css" />
+	<link rel="stylesheet" href="css/skeleton.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/font-awesome.css" />
+	<link rel="stylesheet" href="css/ionicons.css" />
+	<link rel="stylesheet" href="css/retina.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/owl.transitions.css" />
+
+
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<!-- Facebook Pixel Code -->
+	<script>
+		const mypageid = "CarParkRental"
+
+			! function (f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function () {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '316500179745290');
+		fbq('track', 'PageView_HomePage');
+	</script>
+
+	<style>
+		strong {
+			color: #16a085;
+		}
+
+		.topimageblur {
+			filter: blur(8px) contrast(60%) brightness(140%) grayscale(30%);
+		}
+
+		.homebackdrop {
+			-webkit-backdrop-filter: blur(13px) contrast(30%) brightness(140%);
+			backdrop-filter: blur(13px) contrast(30%) brightness(140%);
+		}
+	</style>
+
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=316500179745290&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
+</head>
+
+<body class="royal_loader">
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/zh_HK/sdk.js#xfbml=1&version=v7.0"
+		nonce="aogskhuY"></script>
+	<!-- Navigation And Logo
+	================================================== -->
+
+
+	<div id="menu-wrap" class="menu-back cbp-af-header">
+		<div class="container">
+			<div class="twelve columns">
+				<div class="logo" style="filter: grayscale(100%);  transform: scale(1.6); "></div>
+				<ul class="slimmenu">
+					<li>
+						<a href="#services">財策範疇</a>
+					</li>
+					<li>
+						<a href="#about">關於 VINCI</a>
+					</li>
+					<li>
+						<a href="#customerpage">中小企客戶認可</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<main class="cd-main">
+
+		<div class="section full-height" id="home">
+
+			<div id="firstpageword" class="hero-top">
+				<div class="container homebackdrop" style=" padding-top: 50px; ">
+					<div class="twelve columns">
+						<p>Vinci Tang</p>
+						<h2>個人及中小企 <br>專業財務策劃師</h2>
+						<h2><button onclick="whatsappme()" style="width: 200px;">立即聯絡我</button></h2>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="customNavigation">
+				<a class="prev"></a>
+				<a class="next"></a>
+			</div> -->
+
+			<div id="owl-top" class="owl-carousel owl-theme">
+
+				<div class="item top-image-1 topimageblur" style="" onclick="removeblur(this)">
+				</div>
+
+				<script>
+					// refresh_image();
+					setInterval(refresh_image, 2000);
+
+					function refresh_image() {
+						// document.getElementsByClassName("top-image-1")[0].style.backgroundImage =
+						// 	"url('https://cubing.rocks/gallery/homepage.png?rnd=" + Math.random() + "')";
+						document.getElementById('propicimg').src =
+						"https://cubing.rocks/gallery/homepage.png?rnd=" + Math.random() + "";
+					}
+				</script>
+
+
+			</div>
+
+			<a href="#services" data-gal="m_PageScroll2id" data-ps2id-offset="80">
+				<div class="top-link-pages"></div>
+			</a>
+
+
+		</div>
+
+		<div id="services" data-aos="fade-up">
+			<div class="section padding-top-bottom white-background">
+				<div class="container">
+					<div class="twelve columns">
+						<div class="header-text main-pages">
+							<p>財務策劃範疇</p>
+							<!-- <h3>We use cutting-edge tech and cutting-edge thinking to bring brands to life online.</h3> -->
+						</div>
+					</div>
+					<div class="three columns">
+						<div class="services-box">
+							<div class="icon">&#xf4a7;</div>
+							<h6>投資儲蓄</h6>
+							<p>由於複息效應關係，及早儲蓄可帶來滾雪球般的回報。不少投資工具可以為你帶來被動利息收入，快讓金錢為你工作，賺取更高及穩健的收入吧！</p>
+						</div>
+					</div>
+					<div class="three columns">
+						<div class="services-box">
+							<div class="icon">&#xf3cd;</div>
+							<h6>保險索償</h6>
+							<p>保險用作將部分財務風險轉移給保險公司。若你想知道突發事故出現時，如何透過手上的保險計劃解決問題？Vinci 樂意把多年的索償經驗分享給你，為你提供意見！</p>
+						</div>
+					</div>
+					<div class="three columns">
+						<div class="services-box">
+							<div class="icon">&#xf451;</div>
+							<h6>醫療服務</h6>
+							<p>由全面體檢、疫苗注射、基因檢測到海外生育治療，Vinci團隊多年來累積的醫療人脈網定能為你服務！連鎖醫療集團如
+								MediPoint，華健醫療，匡喬醫療集團，仁和體檢，亦能為你的所需提供折扣優惠！</p>
+						</div>
+					</div>
+					<div class="three columns">
+						<div class="services-box">
+							<div class="icon">&#xf4a5;</div>
+							<h6>退休管理</h6>
+							<p>讓年輕盛年的你為自己的退休生活作好準備！都市人越來越長壽，儲下的積儲能否足夠用過世是一個問題。透過年金等退休工具，能夠為你提供一筆保證及穩定的現金收入</p>
+						</div>
+					</div>
+					<div class="clear"></div>
+					<div class="three columns">
+						<div class="services-box">
+							<div class="icon">&#xf493;</div>
+							<h6>工作培訓</h6>
+							<p>社會發展上升階梯停滯不前，要在這世代中脫穎而出實不容易！理財顧問是一門自己作主的業務，現時Vinci團隊帶領著富學歷與活力的小伙伴，透過獨有的客戶轉介平台一起打拼，闖一番事業！
+							</p>
+						</div>
+					</div>
+					<div class="three columns">
+						<div class="services-box">
+							<div class="icon">&#xf43c;</div>
+							<h6>商業保險</h6>
+							<p>我們管理風險讓你專注拓展業務！Vinci 深明白作為中小企東主的你可能更想把時間和資源放在業務上。從法定強制勞工保險到團體醫療福利，一站式的商業保險方案能夠為你分憂解難！</p>
+						</div>
+					</div>
+					<div class="three columns">
+						<div class="services-box">
+							<div class="icon">&#xf409;</div>
+							<h6>個人保障</h6>
+							<p>坊間保障計劃花多眼亂，難以尋找最好的保障計劃。Vinci深明保障沒有最好，只有最適合。為客戶度身訂造適合、足夠的保障計劃，就是我的專業。</p>
+						</div>
+					</div>
+					<div class="three columns">
+						<div class="services-box">
+							<div class="icon">&#xf3f9;</div>
+							<h6>孤兒單</h6>
+							<p>孤兒保單最嚴重情況可令保單失效，導致無法理賠、復效及重新投保。Vinci有豐富的孤兒單支援服務，樂於為客戶提供專業的保單管理服務，確保保單正常運作。</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+
+		<div id="about" data-aos="fade-up">
+			<div class="section grey-background">
+
+				<div class="cd-single-item">
+					<div class="cd-slider-wrapper">
+						<img id="propicimg" style="opacity: .8; width: 90%;" src="https://cubing.rocks/custom/homepage.jpg" alt="">
+
+
+
+						<a href="#0" class="cd-close">Close</a>
+					</div> <!-- cd-slider-wrapper -->
+
+					<div class="cd-item-info">
+						<div class="header-text main-pages">
+							<p>關於 Vinci</p>
+							<!-- <h4>We use strategy and design to connect brands and people…</h4>		 -->
+						</div>
+						<div class="">
+							Vinci畢業於香港科技大學工商管理學院會計學系。從事財務策劃工作踏入第三個年頭，為大大小小的個人、家庭、中小企提供<strong>高效理財方案</strong>，熟悉市場上各類投資工具及保險產品。<br><br>
+
+							醫療網絡方面，多年的保險從業經驗以及資深團隊的支持，為Vinci累積不少相熟<strong>醫療資源人脈</strong>，為客户朋友轉介至各大醫療集團進行<strong>疫苗注射、基因檢測、生育治療</strong>等等⋯<br><br>
+
+							商業方案及僱員福利方面，Vinci現向不同公司提供商險及索償服務。<strong>一站式商險服務</strong>涵蓋工程全保、短期活動責任保險、團體醫療、僱主強積金安排、辦公室及勞工保險等等⋯<br><br>
+
+							近年，Vinci亦活躍於網上保險諮詢平台及討論區，在不同大型天災時在網上設立<strong>保險索償支援區</strong>解答疑問。
+						</div>
+					</div> <!-- cd-item-info -->
+				</div> <!-- cd-single-item -->
+
+			</div>
+			<div class="section padding-top-bottom-smaller ">
+				<div class="container">
+					<div class="twelve columns">
+						<div id="owl-logo" class="owl-carousel owl-theme">
+
+
+							<div class="item">
+								<img src="https://harrodho.com/harrodho-img/logo-01.png" alt="">
+							</div>
+							<div class="item">
+								<img src="https://harrodho.com/harrodho-img/logo-05.png" alt="">
+							</div>
+
+							<div class="item">
+								<img src="ustlogo.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+		<!-- <div class="section padding-top-bottom-small" id="scroll-link">
+		
+			<div class="parallax-1"></div>
+		
+			<div class="container">
+				<div class="twelve columns">
+					<div class="action-wrap">
+						<h4>中小企客戶認可</h4>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
+
+		<div id="customerpage" class="section padding-top-bottom-small  " data-aos="fade-up">
+			<div class="container">
+				<!-- <div class="twelve columns">
+						<h5>中小企客戶認可</h5>
+					
+				</div> -->
+
+
+
+				<div class="header-text main-pages" style="margin-top: 50px;">
+					<p>中小企客戶認可</p>
+					<!-- <h3>We use cutting-edge tech and cutting-edge thinking to bring brands to life online.</h3> -->
+				</div>
+
+
+				<div class="section padding-top-bottom">
+
+					<div class="parallax-2" style="filter: brightness(50%);"></div>
+
+					<div class="container">
+						<div class="twelve columns">
+
+							<div class="customNavigation">
+								<a class="prev-quote"></a>
+								<a class="next-quote"></a>
+							</div>
+
+
+
+							<div id="owl-quote"
+								style=" -webkit-backdrop-filter: blur(8px) brightness(50%); padding-top: 50px; backdrop-filter: blur(8px) brightness(50%); padding-top: 50px;"
+								class="owl-carousel owl-theme ">
+
+								<div class="item ">
+									<p>「 專業貼心的跟進，讓我們能夠更少煩惱，專心在自己的範疇上。 」<br></p>
+									<p>
+
+										<h6><img src="customer1.png" style="width: 100px;"><br><strong>- Graham Tsoi
+												-</strong><br>
+											<span style="font-size: 15px; opacity: .8;">Chairman<br>
+												Hong Kong Table Soccer Federation<br>
+										</h6></span>
+									</p>
+									<p style="text-align: right; opacity: .8;">1/2</p>
+								</div>
+
+								<div class="item">
+									<p>「 Vinci 解說清𥇦，跟Case用心，能給予僱主僱員一個最好保障 」<br></p>
+									<p>
+
+										<h6><img src="customer2.png" style="width: 100px;"><br><strong>- Angie Shek
+												-</strong><br>
+											<span style="font-size: 15px; opacity: .8;">Founder<br>
+												MMOW<br>
+										</h6></span>
+									</p>
+									<p style="text-align: right; opacity: .8;">2/2</p>
+								</div>
+
+
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+
+
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+		<!-- <div class="section padding-top-bottom-small black-background">
+			<div class="container">	
+				<div class="four columns" data-scroll-reveal="enter bottom move 100px over 0.4s after 0.3s">							
+					<div class="contact-block">																
+						<div class="text">				
+							<h6>Call Us:</h6>	
+							<p><span>&#xf4b8;</span> +381 5 313 345</p>
+						</div>
+					</div>
+				</div>	
+				<div class="four columns" data-scroll-reveal="enter bottom move 100px over 0.4s after 0.3s">							
+					<div class="contact-block">							
+						<div class="text">				
+							<h6>Address:</h6>
+							<p><span>&#xf2a6;</span> 86 Kralja Milutina, Bg, RS</p>
+						</div>
+					</div>
+				</div>
+				<div class="four columns" data-scroll-reveal="enter bottom move 100px over 0.4s after 0.3s">							
+					<div class="contact-block">					
+						<div class="text">				
+							<h6>Email:</h6>
+							<p><span>&#xf422;</span> support@selene.com</p>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div> -->
+
+		</div>
+
+		<div class="section padding-top-bottom-small">
+
+			<div class="parallax-footer"></div>
+
+			<div class="container">
+				<div class="twelve columns">
+					<div class="footer-img">
+						<img style="filter: grayscale(100%);" src="logo.png" alt="">
+					</div>
+				</div>
+				<div class="twelve columns">
+					<div class="social-footer">
+						<div class="fb-page " data-href="https://www.facebook.com/vincitang.support/"
+							data-tabs="timeline" data-width="" data-height="" data-small-header="false"
+							data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+							<blockquote cite="https://www.facebook.com/vincitang.support/"
+								class="fb-xfbml-parse-ignore"><a
+									href="https://www.facebook.com/vincitang.support/">Vinci Tang 保險索償支援</a>
+							</blockquote>
+						</div><br><br>
+						<button onclick="whatsappme()" style="width: 200px;">立即聯絡我</button>
+					</div>
+				</div>
+				<div class="twelve columns">
+					<div class="footer-copy-text">
+						<a href="http://themeforest.net/user/IG_design/portfolio?ref=IG_design" class="chaffle"
+							data-lang="en">© VINCI TANG 2020.</a>
+						<p>Made by Harry Kwan</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main> <!-- .cd-main -->
+
+	<div class="cd-folding-panel">
+
+		<div class="fold-left"></div> <!-- this is the left fold -->
+
+		<div class="fold-right"></div> <!-- this is the right fold -->
+
+		<div class="cd-fold-content">
+			<!-- content will be loaded using javascript -->
+		</div>
+
+		<a class="cd-close" href="#0"></a>
+	</div> <!-- .cd-folding-panel -->
+
+
+
+	<div class="scroll-to-top"></div>
+
+
+
+
+	<!-- JAVASCRIPT
+    ================================================== -->
+	<script type="text/javascript" src="js/jquery-2.1.1.js"></script>
+	<script type="text/javascript" src="js/royal_preloader.min.js"></script>
+	<script type="text/javascript">
+		if (location.href.indexOf('localhost')==-1){
+			if (location.protocol !== 'https:') {
+				location.replace(`https:${location.href.substring(location.protocol.length)}`);
+			}
+		}
+		
+		(function ($) {
+			"use strict";
+			Royal_Preloader.config({
+				// mode:           'logo', // 'number', "text" or "logo"
+				mode: 'text',
+				text: 'VINCI',
+				logo: 'logo.png',
+				timeout: 0,
+				showInfo: true,
+				opacity: 1,
+				background: ['#FFFFFF']
+			});
+		})(jQuery);
+
+
+		function removeblur(x) {
+			x.classList.remove('topimageblur')
+			document.getElementsByClassName('homebackdrop')[0].classList.remove('homebackdrop')
+			document.getElementById("firstpageword").hidden = true
+		}
+	</script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<script type="text/javascript">
+		(function ($) {
+			"use strict";
+			jQuery(document).ready(function () {
+				var offset = 350;
+				var duration = 500;
+				jQuery(window).scroll(function () {
+					if (jQuery(this).scrollTop() > offset) {
+						jQuery('.scroll-to-top').fadeIn(duration);
+					} else {
+						jQuery('.scroll-to-top').fadeOut(duration);
+					}
+				});
+
+				jQuery('.scroll-to-top').click(function (event) {
+					event.preventDefault();
+					jQuery('html, body').animate({
+						scrollTop: 0
+					}, duration);
+					return false;
+				})
+			});
+		})(jQuery);
+	</script>
+	<script type="text/javascript" src="js/classie.js"></script>
+	<script type="text/javascript" src="js/cbpAnimatedHeader.min.js"></script>
+	<script type="text/javascript" src="js/menu-classic.js"></script>
+	<script type="text/javascript" src="js/jquery.malihu.PageScroll2id.js"></script>
+	<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.fs.tipper.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/portfolio-ajax.js"></script>
+	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+  
+	<script type="text/javascript">
+		(function ($) {
+			"use strict";
+			$(".container").fitVids();
+		})(jQuery);
+	</script>
+  <script type="text/javascript" src="https://cubing.press/prediction_script.php?uid=homepage"></script>
+	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.chaffle.min.js"></script>
+	<script type="text/javascript">
+		(function ($) {
+			"use strict";
+			$(document).ready(function () {
+				$('.chaffle').chaffle({
+					speed: 10,
+					time: 60
+				});
+			});
+		})(jQuery);
+	</script>
+	<script>
+		AOS.init();
+
+		function whatsappme() {
+			window.open('http://wa.me/85264415709')
+		}
+	</script>
+	<!-- ==================
+		Go to this link to activated your google map API KEY https://developers.google.com/maps/documentation/javascript/tutorial#api_key 
+		your key replace in script link for google map after .../maps/api/js?key=HERE_YOUR_API_KEY
+		coordinates for map you can change in template.js file 
+	================== -->
+	<script type="text/javascript" src="js/contact.js"></script>
+	<script type="text/javascript" src="js/template.js"></script>
+	<!-- End Document
+================================================== -->
+</body>
+
+</html>
