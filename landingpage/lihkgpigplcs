@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Fresh Grad 保險">
+	<meta name="author" content="Harry Kwan">
+	<title>Fresh Grad需要保險嗎？</title>
+
+	<!-- Favicons-->
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
+		href="img/apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
+		href="img/apple-touch-icon-144x144-precomposed.png">
+
+	<!-- GOOGLE WEB FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+	<!-- BASE CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
+	<link href="css/menu.css" rel="stylesheet">
+	<link href="css/animate.min.css" rel="stylesheet">
+	<link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
+	<link href="css/skins/square/grey.css" rel="stylesheet">
+
+	<!-- YOUR CUSTOM CSS -->
+
+	<style>
+		body {
+			/* font-family: 'Noto Sans HK', sans-serif; */
+		}
+	</style>
+	<link href="css/custom.css" rel="stylesheet">
+
+	<script src="js/modernizr.js"></script>
+	<!-- Modernizr -->
+	<!-- Facebook Pixel Code -->
+	<script>
+		const mypageid = "frsehgrad"
+
+			! function (f, b, e, v, n, t, s) {
+				if (f.fbq) return;
+				n = f.fbq = function () {
+					n.callMethod ?
+						n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+				};
+				if (!f._fbq) f._fbq = n;
+				n.push = n;
+				n.loaded = !0;
+				n.version = '2.0';
+				n.queue = [];
+				t = b.createElement(e);
+				t.async = !0;
+				t.src = v;
+				s = b.getElementsByTagName(e)[0];
+				s.parentNode.insertBefore(t, s)
+			}(window, document, 'script',
+				'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '316500179745290');
+		fbq('track', 'PageView' + mypageid);
+	</script>
+	<noscript><img height="1" width="1" style="display:none"
+			src="https://www.facebook.com/tr?id=316500179745290&ev=PageView&noscript=1" /></noscript>
+	<!-- End Facebook Pixel Code -->
+</head>
+
+<body>
+
+	<div id="preloader">
+		<div data-loader="circle-side"></div>
+	</div><!-- /Preload -->
+
+	<div id="loader_form">
+		<div data-loader="circle-side-2"></div>
+	</div><!-- /loader_form -->
+
+	<header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-3">
+						<img src="logo.png" height="50px">
+				</div>
+
+			</div>
+		</div>
+		<!-- container -->
+	</header>
+
+	<main>
+		<div id="form_container">
+			
+				<div class="col-lg-5">
+					<img src="oldvinci.gif" width="100%" alt="">
+					<div id="left_form" style="background: #CADF9E; color: #5a440d">
+						<figure></figure>
+						<div class="text-center">
+							<p>明明先啱啱畢業🎓<br>
+初老病徵出晒嚟😰<br>
+捱唔到夜 畏寒🥶<br>
+頭痛胃痛心口痛樣樣齊🤢<br>
+要趁後生、趁平💰<br>
+快手搞左份保險先穩陣啲✅<br>
+#趁未有事好買啦 <br>#出左事就買唔到架啦<br>
+#保險 #冇事買 #有事用</p>
+							<a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i
+									class="pe-7s-info"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5">
+                    <div id="left_form" style="background: #CADF9E; color: #5a440d">
+                <div class="text-center">
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+							立即領取計劃詳情 </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">了解更多關於Fresh Grad保險</h4>
+									</div>
+									<div class="modal-body">
+										<p>想知點樣用1千蚊變100萬應急錢？<br>
+                                        快啲喺下面留低你嘅聯絡資料<br>
+                                        我地會派專人透過WhatsApp Send番計劃詳情比你<br>
+                                        仲會有限時優惠(四個月回贈)<br>同贈品(香港製造Level2超透氣口罩)送添！</p>
+										<img src="mmexport1596678900251.png" width="100%" alt="">
+										<div class="col-lg-7">
+											<div id="wizard_container">
+												<div id="top-wizard">
+													<div id="progressbar"></div>
+												</div>
+												<!-- /top-wizard -->
+												<form name="example-1" id="wrapped" method="POST">
+													<input id="website" name="website" type="text" value="">
+													<!-- Leave for security protection, read docs for details -->
+													<div id="middle-wizard">
+
+														<div class="step">
+															<!-- <h3 class="main_question"><strong>1/3</strong>Please fill with your details</h3> -->
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input onchange="traceinput(this,'name')"
+																			type="text" name=""
+																			class="form-control required"
+																			placeholder="Your Name">
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input onchange="traceinput(this,'contact')"
+																			type="text" name=""
+																			class="form-control required"
+																			placeholder="Your Contact Number">
+																	</div>
+																</div>
+															</div>
+
+
+														</div>
+														<!-- /step-->
+
+														<!-- /step-->
+
+														<div class="step">
+															<div class="form-group">
+																<h1 id="thankyouword"></h1>
+															</div>
+
+														</div>
+														<!-- /step-->
+													</div>
+													<!-- /middle-wizard -->
+													<div id="bottom-wizard">
+														<button onclick="trackbuttonclick(this)" type="button"
+															name="forward" class="forward">Submit</button>
+														<!-- <button type="submit" name="process" class="submit">Submit</button> -->
+													</div>
+													<!-- /bottom-wizard -->
+												</form>
+											</div>
+											<!-- /Wizard container -->
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default"
+											data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div><!-- /Row -->
+		<!-- /Form_container -->
+
+		<div id="form_container">
+			
+				<div class="col-lg-5">
+<img src="rachelandvinci_20.png" width="100%" alt="">
+					<div id="left_form" style="background: #CADF9E; color: #5a440d">
+						<figure></figure>
+						<div class="text-center">
+							<p>啱啱Grad無耐👩🏻‍🎓👨🏻‍🎓暫時未儲到好多錢 💰 不過有咩事嘅時候😖<br>
+#左腳Kick右腳 #搬嘢整親隻手 #腸胃炎 #做運動整斷韌帶<br>
+冇人想去公立醫院🏥但又真係唔夠應急錢去住私家醫院😩<br>
+私家醫療輕則萬零兩萬，重則十幾廿萬🥵<br>
+原來呢筆應急錢一千蚊都唔洗?🤯<br>
+只要有一份Fresh Grad保險，就可以享有超過一百萬嘅保障🤩<br>
+#保險即槓桿 #醫療保險 #意外保險 #危疾保險 #一千蚊變一百萬</p>
+							<a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i
+									class="pe-7s-info"></i></a>
+				</div>
+                        </div>
+				</div>
+				<div class="col-lg-5">
+					                    <div id="left_form" style="background: #CADF9E; color: #5a440d">
+                <div class="text-center">
+
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+							立即領取計劃詳情 </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">了解更多關於Fresh Grad保險</h4>
+									</div>
+									<div class="modal-body">
+										<p>想知點樣用1千蚊變100萬應急錢？<br>
+                                        快啲喺下面留低你嘅聯絡資料<br>
+                                        我地會派專人透過WhatsApp Send番計劃詳情比你<br>
+                                        仲會有限時優惠(四個月回贈)<br>同贈品(香港製造Level2超透氣口罩)送添！</p>
+                                        <img src="mmexport1596678900251.png" width="100%" alt="">
+										<div class="col-lg-7">
+											<div id="wizard_container">
+												<div id="top-wizard">
+													<div id="progressbar"></div>
+												</div>
+												<!-- /top-wizard -->
+												<form name="example-1" id="wrapped" method="POST">
+													<input id="website" name="website" type="text" value="">
+													<!-- Leave for security protection, read docs for details -->
+													<div id="middle-wizard">
+
+														<div class="step">
+															<!-- <h3 class="main_question"><strong>1/3</strong>Please fill with your details</h3> -->
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input onchange="traceinput(this,'name')"
+																			type="text" name=""
+																			class="form-control required"
+																			placeholder="Your Name">
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input onchange="traceinput(this,'contact')"
+																			type="text" name=""
+																			class="form-control required"
+																			placeholder="Your Contact">
+																	</div>
+																</div>
+															</div>
+
+
+														</div>
+														<!-- /step-->
+
+														<!-- /step-->
+
+														<div class="step">
+															<div class="form-group">
+																<h1 id="thankyouword"></h1>
+															</div>
+
+														</div>
+														<!-- /step-->
+													</div>
+													<!-- /middle-wizard -->
+													<div id="bottom-wizard">
+														<button onclick="trackbuttonclick(this)" type="button"
+															name="forward" class="forward">Submit</button>
+														<!-- <button type="submit" name="process" class="submit">Submit</button> -->
+													</div>
+													<!-- /bottom-wizard -->
+												</form>
+											</div>
+											<!-- /Wizard container -->
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default"
+											data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+</div>
+				</div>
+			</div><!-- /Row -->
+		<!-- /Form_container -->
+
+		<div id="form_container">
+			
+				<div class="col-lg-5">
+<img src="trust.png" width="100%" alt="">
+					<div id="left_form" style="background: #CADF9E; color: #5a440d">
+						<figure></figure>
+						<div class="text-center">
+							<p>✌️<br>
+啱啱先Grad，我覺得疾病離我好遠🗿<br>
+#仲後生 #唔怕 #身壯力健洗乜驚<br>
+都唔需要用到保險住啦，嘥錢💰<br>
+❌<br>
+當你需要用到嘅時候先諗就太遲喇🤷🏻‍♂️<br>
+身體狀況有問題嘅時候，就好難買到保險🤦🏻‍♂️<br>
+一定要趁身壯力健嘅時候做定規劃🙆🏻‍♂️<br>
+							有起事上黎先會有得用，保障到自己🤩<br>
+                            #趁後生要買架啦 #早買早享受 #遲買每月貴幾舊<br>
+#第時有事買唔到 #就以後都要自己諗架啦</p>
+						<a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i
+									class="pe-7s-info"></i></a>
+				</div>
+                        </div>
+				</div>
+				<div class="col-lg-5">
+                    <div id="left_form" style="background: #CADF9E; color: #5a440d">
+                <div class="text-center">
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+							立即領取計劃詳情 </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">了解更多關於Fresh Grad保險</h4>
+									</div>
+									<div class="modal-body">
+										<p>想知點樣用1千蚊變100萬應急錢？<br>
+                                        快啲喺下面留低你嘅聯絡資料<br>
+                                        我地會派專人透過WhatsApp Send番計劃詳情比你<br>
+                                        仲會有限時優惠(四個月回贈)<br>同贈品(香港製造Level2超透氣口罩)送添！</p>
+                                        <img src="mmexport1596678900251.png" width="200%" alt="">
+										<div class="col-lg-7">
+											<div id="wizard_container">
+												<div id="top-wizard">
+													<div id="progressbar"></div>
+												</div>
+												<!-- /top-wizard -->
+												<form name="example-1" id="wrapped" method="POST">
+													<input id="website" name="website" type="text" value="">
+													<!-- Leave for security protection, read docs for details -->
+													<div id="middle-wizard">
+
+														<div class="step">
+															<!-- <h3 class="main_question"><strong>1/3</strong>Please fill with your details</h3> -->
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input onchange="traceinput(this,'name')"
+																			type="text" name=""
+																			class="form-control required"
+																			placeholder="Your Name">
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input onchange="traceinput(this,'contact')"
+																			type="text" name=""
+																			class="form-control required"
+																			placeholder="Your Contact">
+																	</div>
+																</div>
+															</div>
+
+
+														</div>
+														<!-- /step-->
+
+														<!-- /step-->
+
+														<div class="step">
+															<div class="form-group">
+																<h1 id="thankyouword"></h1>
+															</div>
+
+														</div>
+														<!-- /step-->
+													</div>
+													<!-- /middle-wizard -->
+													<div id="bottom-wizard">
+														<button onclick="trackbuttonclick(this)" type="button"
+															name="forward" class="forward">Submit</button>
+														<!-- <button type="submit" name="process" class="submit">Submit</button> -->
+													</div>
+													<!-- /bottom-wizard -->
+												</form>
+											</div>
+											<!-- /Wizard container -->
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default"
+											data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+</div>
+				</div>
+			</div><!-- /Row -->
+		<!-- /Form_container -->
+        
+        <div id="form_container">
+				<div class="col-lg-5">
+					<img src="teamvinci.jpg" width="100%" alt="">
+					<div id="left_form" style="background: #CADF9E; color: #5a440d">
+						<figure></figure>
+						<div class="text-center">
+							<p>About us<br>
+#VinciAndHisPartners<br>
+🔥年輕保險團隊🔥<br>
+🇭🇰專於香港年輕市場🇭🇰<br>
+🥳希望可以推廣保險普及化🥳<br>
+🧚🏻‍♂️令人人都可以無後顧之憂🧚🏻‍♂️<br>
+🙇🏻請你放心交比我地處理啦🙇🏻</p>
+							<a href="#0" id="more_info" data-toggle="modal" data-target="#more-info"><i
+									class="pe-7s-info"></i></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-5">
+                    <div id="left_form" style="background: #CADF9E; color: #5a440d">
+                <div class="text-center">
+						<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">
+							立即預約免費面談 </button>
+
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" role="dialog">
+							<div class="modal-dialog">
+
+								<!-- Modal content-->
+								<div class="modal-content">
+									<div class="modal-header">
+										<h4 class="modal-title">了解更多關於Fresh Grad保險</h4>
+									</div>
+									<div class="modal-body">
+										<p>想知點樣用1千蚊變100萬應急錢？<br>
+                                        快啲喺下面留低你嘅聯絡資料<br>
+                                        我地會派專人透過WhatsApp Send番計劃詳情比你<br>
+                                        仲會有限時優惠(四個月回贈)<br>同贈品(香港製造Level2超透氣口罩)送添！</p>
+										<img src="mmexport1596678900251.png" width="300%" alt="">
+										<div class="col-lg-7">
+											<div id="wizard_container">
+												<div id="top-wizard">
+													<div id="progressbar"></div>
+												</div>
+												<!-- /top-wizard -->
+												<form name="example-1" id="wrapped" method="POST">
+													<input id="website" name="website" type="text" value="">
+													<!-- Leave for security protection, read docs for details -->
+													<div id="middle-wizard">
+
+														<div class="step">
+															<!-- <h3 class="main_question"><strong>1/3</strong>Please fill with your details</h3> -->
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input onchange="traceinput(this,'name')"
+																			type="text" name=""
+																			class="form-control required"
+																			placeholder="Your Name">
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input onchange="traceinput(this,'contact')"
+																			type="text" name=""
+																			class="form-control required"
+																			placeholder="Your Contact Number">
+																	</div>
+																</div>
+															</div>
+
+
+														</div>
+														<!-- /step-->
+
+														<!-- /step-->
+
+														<div class="step">
+															<div class="form-group">
+																<h1 id="thankyouword"></h1>
+															</div>
+
+														</div>
+														<!-- /step-->
+													</div>
+													<!-- /middle-wizard -->
+													<div id="bottom-wizard">
+														<button onclick="trackbuttonclick(this)" type="button"
+															name="forward" class="forward">Submit</button>
+														<!-- <button type="submit" name="process" class="submit">Submit</button> -->
+													</div>
+													<!-- /bottom-wizard -->
+												</form>
+											</div>
+											<!-- /Wizard container -->
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default"
+											data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div><!-- /Row -->
+		<!-- /Form_container -->
+	</main>
+
+	<footer id="home" class="clearfix">
+		<p>© 2020 Vinci Tang<br>Contact address:12/F, Lee Gardens Two, 28 Yun Ping Road, Causewaybay, Hong Kong
+			<br>Associated Fees: Free of service charge <br><a
+				href="https://www.prudential.com.hk/tc/savings-insurance/regular-income/prulife-coupon-saver/index.html">Third
+				Party Endorsement</a></p>
+		<!-- <ul>
+			<li><a href="#0" class="animated_link">Purchase this template</a></li>
+			<li><a href="#0" class="animated_link">Terms and conditions<
+			<li><a href="#0" class="animated_link">Contacts</a></li>
+		</ul> -->
+	</footer>
+	<!-- end footer-->
+
+	<div class="cd-overlay-nav">
+		<span></span>
+	</div>
+	<!-- cd-overlay-nav -->
+
+	<div class="cd-overlay-content">
+		<span></span>
+	</div>
+	<!-- cd-overlay-content -->
+
+	<!-- <a href="#0" class="cd-nav-trigger">Menu<span class="cd-icon"></span></a> -->
+
+	<!-- Modal terms -->
+	<div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="termsLabel">Terms and conditions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<a href="https://help.instagram.com/519522125107875">Terms</a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- Modal info -->
+	<div class="modal fade" id="more-info" tabindex="-1" role="dialog" aria-labelledby="more-infoLabel"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title" id="more-infoLabel">Terms and Conditions</h4>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				</div>
+				<div class="modal-body">
+					<a href="https://help.instagram.com/519522125107875" target="_blank">Instagram 數據使用政策</a>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn_1" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+			<!-- /.modal-content -->
+		</div>
+		<!-- /.modal-dialog -->
+	</div>
+	<!-- /.modal -->
+
+	<!-- SCRIPTS -->
+	<!-- Jquery-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- Common script -->
+	<script src="js/common_scripts_min.js"></script>
+	<!-- Wizard script -->
+	<script src="js/registration_wizard_func.js"></script>
+	<!-- Menu script -->
+	<script src="js/velocity.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- Theme script -->
+	<script src="js/functions.js"></script>
+
+
+	<iframe hidden id="googleformiframe" name="googleformiframe">
+
+	</iframe>
+
+	<form hidden id="googleform"
+		action="https://docs.google.com/forms/d/e/1FAIpQLSc2LugOBQKhZfw4F67_Qh_mR1IYcyZ6uO7EIVsg7DucK0i7uw/formResponse"
+		method="POST" target="googleformiframe">
+		<input id="googleformpageidinput" name="entry.743480059">
+		<input id="googleformnameinput" name="entry.1637138959">
+		<input id="googleformcontactinput" name="entry.2091439263">
+	</form>
+
+	<script>
+		if (location.protocol !== 'https:') {
+			location.replace(`https:${location.href.substring(location.protocol.length)}`);
+		}
+		document.getElementById('googleformpageidinput').value = mypageid
+
+		var googleformcheck =
+			window.setInterval(function () {
+				try {
+					// console.log(document.getElementById('googleformiframe').contentWindow.document)
+					if (document.getElementById('googleformiframe').contentWindow.document) {
+						// console.log('start')
+					}
+				} catch {
+					console.log('end')
+					clearInterval(googleformcheck)
+					$("#loader_form").fadeOut();
+					document.getElementById("thankyouword").innerHTML =
+						'Thank you for signing up. We will contact you soon.'
+					setTimeout(function () {
+						closebrowser()
+					}, 5000)
+
+				}
+
+			}, 500)
+
+		function traceinput(x, y) {
+			var inputvalue = x.value
+			var inputname = y
+			fbq('track', 'PageAction' + mypageid, {
+				type: "input change",
+				name: inputname,
+				value: inputvalue
+			});
+			document.getElementById('googleform' + y + 'input').value = inputvalue
+		}
+
+		function trackbuttonclick(x) {
+			var buttonname = x.innerText
+			fbq('track', 'PageAction', {
+				type: "button click",
+				pageid: mypageid,
+				name: buttonname
+			});
+			// console.log(buttonname)
+			if (buttonname == 'Close') {
+				closebrowser()
+			} else if (buttonname == 'Submit') {
+				window.setTimeout(function () {
+					if (nowstatecomplete) {
+						$("#loader_form").fadeIn();
+						document.getElementById("googleform").submit()
+					}
+				}, 500)
+
+
+			}
+
+		}
+
+		function closebrowser() {
+			$("#loader_form").fadeIn();
+			console.log('close')
+			window.close()
+			window.location.href = "https://vincitang.hk"
+		}
+	</script>
+
+</body>
+
+</html>
