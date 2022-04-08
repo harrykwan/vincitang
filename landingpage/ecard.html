@@ -98,7 +98,7 @@
 		<div id="form_container">
 			<div class="row">
 				<div class="col-lg-5">
-					<img scr="https://cubing.press/gallery/homepage_321.png" style="width: 500px; max-width: 80%;" />
+					<img src="https://cubing.press/gallery/homepage_321.png" style="width: 500px; max-width: 80%;" />
 					<div id="left_form" style="background: #CADF9E; color: #5a440d">
 						<figure></figure>
 						<div class="text-center">
@@ -117,7 +117,7 @@
 	</main>
 
 	<footer id="home" class="clearfix">
-		<p>© 2020 Vinci Tang<br>Contact address:12/F, Lee Gardens Two, 28 Yun Ping Road, Causewaybay, Hong Kong
+		<p>© 2022 Vinci Tang<br>Contact address:1502A,Prudential Tower,Harbour City, TST, Hong Kong
 			<br>Associated Fees: Free of service charge <br><a
 				href="https://www.prudential.com.hk/tc/savings-insurance/regular-income/prulife-coupon-saver/index.html">Third
 				Party Endorsement</a></p>
@@ -196,88 +196,6 @@
 	<script src="js/main.js"></script>
 	<!-- Theme script -->
 	<script src="js/functions.js"></script>
-
-
-	<iframe hidden id="googleformiframe" name="googleformiframe">
-
-	</iframe>
-
-	<form hidden id="googleform"
-		action="https://docs.google.com/forms/d/e/1FAIpQLSc2LugOBQKhZfw4F67_Qh_mR1IYcyZ6uO7EIVsg7DucK0i7uw/formResponse"
-		method="POST" target="googleformiframe">
-		<input id="googleformpageidinput" name="entry.743480059">
-		<input id="googleformnameinput" name="entry.1637138959">
-		<input id="googleformcontactinput" name="entry.2091439263">
-	</form>
-
-	<script>
-		if (location.protocol !== 'https:') {
-			location.replace(`https:${location.href.substring(location.protocol.length)}`);
-		}
-		document.getElementById('googleformpageidinput').value = mypageid
-
-		var googleformcheck =
-			window.setInterval(function () {
-				try {
-					// console.log(document.getElementById('googleformiframe').contentWindow.document)
-					if (document.getElementById('googleformiframe').contentWindow.document) {
-						// console.log('start')
-					}
-				} catch {
-					console.log('end')
-					clearInterval(googleformcheck)
-					$("#loader_form").fadeOut();
-					document.getElementById("thankyouword").innerHTML =
-						'Thank you for signing up. We will contact you soon.'
-					setTimeout(function () {
-						closebrowser()
-					}, 5000)
-
-				}
-
-			}, 500)
-
-		function traceinput(x, y) {
-			var inputvalue = x.value
-			var inputname = y
-			fbq('track', 'PageAction' + mypageid, {
-				type: "input change",
-				name: inputname,
-				value: inputvalue
-			});
-			document.getElementById('googleform' + y + 'input').value = inputvalue
-		}
-
-		function trackbuttonclick(x) {
-			var buttonname = x.innerText
-			fbq('track', 'PageAction', {
-				type: "button click",
-				pageid: mypageid,
-				name: buttonname
-			});
-			// console.log(buttonname)
-			if (buttonname == 'Close') {
-				closebrowser()
-			} else if (buttonname == 'Submit') {
-				window.setTimeout(function () {
-					if (nowstatecomplete) {
-						$("#loader_form").fadeIn();
-						document.getElementById("googleform").submit()
-					}
-				}, 500)
-
-
-			}
-
-		}
-
-		function closebrowser() {
-			$("#loader_form").fadeIn();
-			console.log('close')
-			window.close()
-			window.location.href = "https://www.instagram.com/vincitang.hk"
-		}
-	</script>
 
 </body>
 
