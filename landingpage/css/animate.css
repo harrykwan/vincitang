@@ -6,6 +6,8 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 Copyright (c) 2014 Daniel Eden
 */
 
+.fade-in-image { animation: fadeInUp 8s; }
+
 .animated {
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
