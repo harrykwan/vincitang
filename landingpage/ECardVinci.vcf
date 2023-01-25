@@ -1,34 +1,26 @@
 BEGIN:VCARD
 VERSION:3.0
-PRODID:-//Apple Inc.//iPhone OS 15.6//EN
+PRODID:-//Apple Inc.//iPhone OS 16.2//EN
 N:Tang;Vinci Kwun Chi;;;
 FN:Vinci Kwun Chi Tang
-ORG:Prudential;
-EMAIL;type=INTERNET;type=HOME;type=pref:vkctang@gmail.com
-EMAIL;type=INTERNET;type=WORK:info@vincitang.hk
+ORG:Magician;
+EMAIL;type=INTERNET;type=WORK;type=pref:info@vincitang.hk
 TEL;type=HOME;type=VOICE;type=pref:+852 6441 5709
-TEL;type=IPHONE;type=CELL;type=VOICE:+852 9704 3139
 item1.TEL:+86 198 9657 7309
 item1.X-ABLabel:內地電話
-item2.ADR;type=WORK;type=pref:;;廣東道 21號 保誠保險大樓1502A;尖沙咀;;九龍;香港
-item2.X-ABADR:hk
-item3.ADR;type=WORK:;;屈臣道4-6號海景大廈B座14摟1401 C-D室;炮台山;;香港;香港
-item3.X-ABADR:hk
 X-SOCIALPROFILE;type=Instagram;x-user=vincitang.hk:x-apple:www.instagram.com/vincitang.hk
 X-SOCIALPROFILE;type=facebook:http://www.facebook.com/vincitang.hk
-item4.URL;type=pref:vincitang.hk
-item4.X-ABLabel:_$!<HomePage>!$_
-item5.URL:www.instagram.com/vincitang.hk
-item5.X-ABLabel:Instagram
-item6.URL:https://fb.me/vincitang.hk
-item6.X-ABLabel:Facebook
-item7.URL:http://wa.me/85264415709?text=你好Vinci\,我想查詢保險理財的資訊
-item7.X-ABLabel:WhatsApp
-item8.URL:https://wa.me/85264026536?text=你好Vinci，我想你為我推介日用品
-item8.X-ABLabel:vinci.cares
+item2.URL;type=pref:vincitang.hk
+item2.X-ABLabel:_$!<HomePage>!$_
+item3.URL:www.instagram.com/vincitang.hk
+item3.X-ABLabel:Instagram
+item4.URL:https://fb.me/vincitang.hk
+item4.X-ABLabel:Facebook
+item5.URL:http://wa.me/85264415709?text=你好Vinci
+item5.X-ABLabel:WhatsApp
 BDAY:1998-12-03
-item9.IMPP;X-SERVICE-TYPE=WhatsApp;type=pref:x-apple:64415709
-item9.X-ABLabel:WhatsApp
+item6.IMPP;X-SERVICE-TYPE=WhatsApp;type=pref:x-apple:64415709
+item6.X-ABLabel:WhatsApp
 PHOTO;ENCODING=b;TYPE=JPEG:/9j/4AAQSkZJRgABAQAASABIAAD/4QBMRXhpZgAATU0AKgAA
  AAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAABQKADAAQAAAABAA
  ABQAAAAAD/wAARCAFAAUADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcI
