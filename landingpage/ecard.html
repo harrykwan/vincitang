@@ -81,20 +81,16 @@
 
 <body>
 
-	<div id="preloader">
-		<div data-loader="circle-side"></div>
-	</div><!-- /Preload -->
+	   <div class="loader">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
 
-	<div id="loader_form">
-		<div data-loader="circle-side-2"></div>
-	</div><!-- /loader_form -->
-
-  <script type="text/javascript">
+    <script type="text/javascript">
     setTimeout(function(){
-      $('[data-loader="circle-side"]').fadeToggle();
-    },6500);
-
-
+      $('.loader').fadeToggle();
+    },3000);
     </script>
 
 	<header>
