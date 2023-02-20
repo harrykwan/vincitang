@@ -1,4 +1,7 @@
-
+setTimeout(function(){        
+    $('#preloader').fadeOut();
+    $('[data-loader="circle-side"]').delay(150).fadeOut('slow'); 
+}, 40000);
 
 var loader = document.getElementById("preloader");
     
