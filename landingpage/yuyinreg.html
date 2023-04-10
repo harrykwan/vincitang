@@ -282,6 +282,9 @@
 					$("#loader_form").fadeOut();
 					document.getElementById("thankyouword").innerHTML =
 						'Thanks for joining us!'
+setTimeout(function () {
+						closebrowser()
+					}, 5000)
 					
 
 				}
@@ -297,9 +300,7 @@
 				value: inputvalue
 			});
 			document.getElementById('googleform' + y + 'input').value = inputvalue
-setTimeout(function () {
-						closebrowser()
-					}, 5000)
+
 		}
 
 		function trackbuttonclick(x) {
