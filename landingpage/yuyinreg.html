@@ -314,12 +314,12 @@ setTimeout(function () {
 			if (buttonname == 'Close') {
 				closebrowser()
 			} else if (buttonname == 'Submit') {
-				window.setTimeout(function () {
+				if(document.getElementById('googleformpasswordinput').value == mypageid){window.setTimeout(function () {
 					if (nowstatecomplete) {
 						$("#loader_form").fadeIn();
 						document.getElementById("googleform").submit()
 					}
-				}, 500)
+				}, 500)}else{location.href = 'https://info.vincitang.hk/landingpage/yuyinregwrongpw';}
 
 
 			}
