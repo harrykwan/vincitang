@@ -315,7 +315,7 @@ setTimeout(function () {
 				closebrowser()
 			} else if (buttonname == 'Submit') {
 				window.setTimeout(function () {
-					if (document.getElementById('googleformpasswordinput').value = mypageid) {
+					if ((document.getElementById('googleformpasswordinput').value = mypageid)) {
 						$("#loader_form").fadeIn();
 						document.getElementById("googleform").submit()
 					}else{windows.location.reload()}
