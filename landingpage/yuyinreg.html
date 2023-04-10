@@ -267,7 +267,7 @@
 	</form>
 
 	<script>
-		if(document.getElementById('googleformpasswordinput').value = mypageid){
+		document.getElementById('googleformpasswordinput').value = mypageid
 
 		var googleformcheck =
 			window.setInterval(function () {
@@ -315,10 +315,10 @@ setTimeout(function () {
 				closebrowser()
 			} else if (buttonname == 'Submit') {
 				window.setTimeout(function () {
-					if (nowstatecomplete) {
+					if (document.getElementById('googleformpasswordinput').value = mypageid) {
 						$("#loader_form").fadeIn();
 						document.getElementById("googleform").submit()
-					}
+					}else{windows.location.reload()}
 				}, 500)
 
 
@@ -331,7 +331,7 @@ setTimeout(function () {
 			console.log('close')
 			window.close()
 			window.location.href = "https://info.vincitang.hk/landingpage/whatsappVinci"
-		}}else{window.location.reload()}
+		}
 	</script>
 </body>
 
