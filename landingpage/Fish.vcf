@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 16.4//EN
+N:;Fish;;;
+FN:Fish
+ORG:如煙;
+TEL;type=CELL;type=VOICE;type=pref:9222 0654
+item1.URL;type=pref:www.instagram.com/ex_bistro
+item1.X-ABLabel:Instagram
+END:VCARD
